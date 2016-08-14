@@ -1,0 +1,21 @@
+{
+  "name": "dht-express",
+  "version": "1.0.0",
+  "description": "Express webserver serving DHT11/ DHT22 sensor data build for https://github.com/lucacri/homebridge-http-temperature-humidity",
+  "license": "MIT",
+  "author": {
+    "name": "Edgar Toll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edjopato/dht-express.git"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-dht-sensor": "0.0.12"
+  },
+  "scripts": {
+    "start": "sudo node standalone.js",
+    "test": "sudo node testsensor.js"
+  }
+}
