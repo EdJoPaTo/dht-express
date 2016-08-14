@@ -10,6 +10,7 @@ After that clone the repository.
 ```bash
 git clone https://github.com/edjopato/dht-express.git
 cd dht-express
+npm install
 ```
 
 If you want to include the endpoint in your existing Express webserver take a look in the topic at the end of the README
