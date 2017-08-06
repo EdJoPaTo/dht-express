@@ -34,7 +34,7 @@ This module uses the [BCM2835](http://www.airspayce.com/mikem/bcm2835/) library 
 npm start
 ```
 
-After that you can configure and run [homebridge](https://www.npmjs.com/package/homebridge) with the [homebridge-http-temperature-humidity](https://www.npmjs.com/package/node-dht-sensor) plugin.
+After that you can configure and run [homebridge](https://www.npmjs.com/package/homebridge) with the [homebridge-http-temperature-humidity](https://www.npmjs.com/package/homebridge-http-temperature-humidity) plugin.
 
 # Include in existing express webserver
 
