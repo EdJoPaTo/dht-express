@@ -49,7 +49,7 @@ you can use every other express router
 ```JavaScript
 var sensorRouter = requires('dht-express');
 ...
-app.use( '/my/super/route', sensor( type, pin ) );
+app.use( '/my/super/route', sensorRouter( type, pin ) );
 ```
 
 Don't forget the admin privileges of this module (run with sudo)
